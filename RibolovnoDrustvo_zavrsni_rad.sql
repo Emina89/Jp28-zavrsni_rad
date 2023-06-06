@@ -78,8 +78,8 @@ select * from natjecanje;
 insert into natjecanje(sifra,rezultat,datum,rijeka_jezero)
 -- 1 do 2
 values
-(null,1,20230522,'Sava'),
-(null,2,20230522,'Sava');
+(null,1,'2023-05-22','Sava'),
+(null,2,'2023-05-22','Sava');
 
 select * from dozvola;
 -- 4
